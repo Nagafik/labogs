@@ -72,7 +72,7 @@ text-decoration:none;
 
 
 <script>
-var mots=["1potto","2man","3saiga","4perlon","5tenrec","6n�pe","7flet","8lote"];
+var mots=["1potto","2man","3saiga","4perlon","5tenrec","6nèpe","7flet","8lote"];
 var motsbis;
 
 function shuffle(array) {
@@ -117,7 +117,7 @@ function verif()
 		resultat++;
 	}
 	if (resultat==8) resultat="BRAVO ! "+ resultat;
-	resultat=resultat+ " bonnes r�ponses";
+	resultat=resultat+ " bonnes réponses";
 	
 	var titre=document.getElementById("total");
 	titre.firstChild.nodeValue=resultat;
@@ -144,7 +144,7 @@ function verif()
  <p id="r8" >&nbsp;  <input type="number" id="c8" name="c8" value="0"size="4"   min="1" max="8"></p>
 
   
-  <input type="button" value="Pr�t" onclick="verif()">
+  <input type="button" value="Prêt" onclick="verif()">
 </form> 
 
 
